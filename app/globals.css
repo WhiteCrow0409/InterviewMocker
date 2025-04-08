@@ -222,11 +222,12 @@
 
     .avatar {
       @apply z-10 flex items-center justify-center blue-gradient rounded-full size-[120px] relative;
-
+    
       .animate-speak {
-        @apply absolute inline-flex size-5/6 animate-ping rounded-full bg-primary-200 opacity-75;
+        @apply absolute inline-flex size-5/6 animate-ping rounded-full bg-gray-800 opacity-75;
       }
     }
+    
 
     .card-border {
       @apply border-gradient p-0.5 rounded-2xl flex-1 sm:basis-1/2 w-full h-[400px] max-md:hidden;
